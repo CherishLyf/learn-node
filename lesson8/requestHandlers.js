@@ -1,4 +1,5 @@
 
+// 创建一个系统子进程来执行 shell 命令
 var exec = require('child_process').exec
 
 function start(response) {
